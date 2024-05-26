@@ -23,7 +23,15 @@ const AppMenu = () => {
                     { label: 'tạo quyền', icon: 'pi pi-fw pi-bookmark', to: '/roles/create' },
                 ],
 
-            }],
+            },
+               { label: 'Thông báo', icon: 'pi pi-fw pi-list',
+                    items: [
+                        { label: 'Danh sách thông báo', icon: 'pi pi-fw pi-bookmark', to: '/notifications' },
+                        { label: 'Tạo thông báo', icon: 'pi pi-fw pi-bookmark', to: '/notifications/create' },
+                    ],
+
+                },
+        ],
 
         }
     ];
